@@ -1,135 +1,130 @@
-body{
+body {
     margin: 10px;
     padding: 20px;
     background-image: url('imagenes/fondo.jpg');
-   }
-
-   header {
+  }
+  
+  header {
     padding: 30px;
-    background-color: 
-    #960101;
+    background-color: #960101;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 40px;
     border: 3px lightsteelblue;
-    margin: none;
-    display: flex; 
-    align-items: center; 
+    display: flex;
+    align-items: center;
     justify-content: space-between;
-}
-
-.iconos {
-    display: flex; 
-    gap: 15px; 
-}
-
-.a1 {
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .facebook-link,
+  .instagram-link,
+  .twitter-link {
     font-family: Helvetica;
     border-radius: 10px;
     color: #fff;
     font-family: verdana;
-}
-
-nav{
+  }
+  
+  nav {
     display: flex;
     flex-direction: row;
-    background-color:#E6DBFF;
-}  
-
-.a2{
-    display: flex ;
+    background-color: #E6DBFF;
+  }
+  
+  .nav-link {
+    display: flex;
     flex-direction: row;
     font-family: Helvetica;
-    font-weight:100;
-    background-color:#BAD0EF;
-    border-radius:10px;
-    padding:10px 20px;
-    margin:10px 10px;
-    color:#fff;
-    text-decoration:none;
+    font-weight: 100;
+    background-color: #BAD0EF;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px 10px;
+    color: #fff;
+    text-decoration: none;
     border: dotted;
     font-family: verdana;
-}
-
-.row{
+  }
+  
+  .image-row {
     display: flex;
     justify-content: space-evenly;
-    flex-wrap:wrap;
-}
-
-section{
+    flex-wrap: wrap;
+  }
+  
+  .gallery-section {
     flex: 70%;
-    background-color:#520404;
-    padding:0px;
-}
-
-footer{
+    background-color: #520404;
+    padding: 0px;
+  }
+  
+  footer {
     padding: 20px;
     background-color: #E6DBFF;
-}
-
-div.gallery {
+  }
+  
+  .gallery-item {
     margin: 18px 50px;
-    width: 250px;
-}
-
-div.gallery:hover{
-    border: 0.5px dashed #777;
-}
-
-div.gallery img {
+    width: 370px;
+  }
+  
+  .gallery-item img {
     width: 100%;
     height: auto;
     padding-top: 5px;
-}
-
-.div3{
+  }
+  
+  .marvel-info {
     display: flex;
     padding: 150px;
     background-color: #b82727;
-}
-
-.img2{
+  }
+  
+  .marvel-image {
     width: 400px;
     height: 400px;
     padding-left: 20px;
-}
-
-p{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+  }
+  
+  .marvel-description {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
     color: rgb(255, 255, 255);
-}
-
-h4{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  h4 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
-}
-
-.div4{
+  }
+  
+  .spiderverse-section {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #570202;
     width: 40%;
     height: 60%;
-    margin: 0 auto; 
-
-}
-
-.img3{
+    margin: 0 auto;
+  }
+  
+  .spiderverse-image {
     width: 300px;
     height: 300px;
     border-radius: 200px;
     object-fit: cover;
     margin-bottom: 20px;
-    
-}
-
-.p2 p{
+  }
+  
+  .spiderverse-description p {
     display: flex;
     flex-direction: column;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center; 
+    font-size: 17px;
+    text-align: center;
     color: rgb(255, 255, 255);
-}
+  }
